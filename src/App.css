@@ -1,0 +1,208 @@
+body{
+  background-image: url('./Component/Assets/Portfolio.png');
+  height:2277px; 
+  background-repeat: no-repeat;
+  background-color: #0A0B0B;
+}
+.nav-bar
+{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 30px;
+  justify-content: center; 
+}
+.nav-name
+{
+   margin-right: 1000px;
+}
+.name-first
+{
+  font-size: 23px;
+  font-weight: bold;
+}
+.name-last
+{
+  font-size: 15px;
+  margin-left: 30px;
+}
+.nav-bar-item
+{
+  height: 35px;
+  width: 100px;
+  border: 1px solid gray;
+  border-radius: 9px;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 20px;
+  background-color: #0A0B0B;
+  color: white;
+}
+:hover.nav-bar-item
+{
+  background-color: white;
+  color: black;
+}
+.name
+{
+  font-size: 64px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+}
+.bio
+{
+  color: white;
+  font-size: 27px;
+  font-weight: bolder;
+  text-align: center;
+  margin-left: 400px;
+  font-family: Helvetica;
+}
+.intro
+{
+  font-size:42px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  margin-top: 90px;
+  text-align: center;
+  margin-right: 1000px;
+}
+.social-item
+{
+  display: flex;
+  justify-content: center;
+  margin-right: 1050px;
+  padding: 20px;
+}
+.socials
+{
+  background-color: #0A0B0B;
+  color: white;
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+:hover.socials
+{
+  background-color: white;
+  color: black;
+}
+
+/* skills */
+
+.skills
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.title-head
+{
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+}
+.title-info
+{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.skill-image
+{
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* project  */
+
+.projects
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-top: 40px;
+}
+.project-img
+{
+  margin-top: 30px;
+}
+
+/* art  */
+.art
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-top: 20px;
+}
+.artwork
+{
+  background-image: url('./Component/Assets/art.png');
+  height: 198px;
+  width: 1590px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 30px;
+}
+.art-button
+{
+  margin-top: 30px;
+  height: 50px;
+  width: 400px;
+  background-color: #0A0B0B;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 12px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+:hover.art-button
+{
+  background-color: white;
+  color: black;
+}
+
+/* contact  */
+.contact
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.email
+{
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+  padding: 30px;
+}
+.icons
+{
+  display: flex;
+  flex-direction: row;
+}
+.icon-item
+{
+  padding: 30px;
+}
+.footer
+{
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
