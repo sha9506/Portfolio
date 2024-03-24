@@ -45,7 +45,7 @@ const Landing=()=>
         {/* Projects  */}
         <div className="projects" id="project">
             <div className="title-head">PROJECTS</div>
-            <div className= "title-info">My Latest Project Works</div>
+            <div className="title-info">My Latest Project Works</div>
             <img className="project-img" src={Gojo} alt="gojo" />
             <img  className="project-img" src={Insmarts} alt="insmarts" />
         </div>
